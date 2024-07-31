@@ -1,7 +1,7 @@
 # sql-challenge
 
-## Research project about people who a company employed during the 1980s and 1990s
-## Tasks: Create Entity Relationship Diagram (ERD), design tables to hold the data from the CSV files, import the CSV files into a SQL database, and then perform analysis on the data
+Research project about people who a company employed during the 1980s and 1990s
+* Tasks: Create Entity Relationship Diagram (ERD), design tables to hold the data from the CSV files, import the CSV files into a SQL database, and then perform analysis on the data
 
 ---
 
