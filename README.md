@@ -5,6 +5,7 @@
 
 ### Data modeling:
 Created entity relationship diagram to understand the relationships between different tables
+
 Set primary keys, composite keys where there was not a unique identifier, and foreign keys to link tables
 
 ![erd](https://github.com/caitlin-hartley/sql-challenge/blob/main/employeeSQL/employees_erd.png)
