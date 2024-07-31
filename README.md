@@ -15,7 +15,7 @@ Tasks:
 
 ---
 
-### Data modeling:
+## Data modeling:
 
 Created entity relationship diagram to understand the relationships between different tables
 
@@ -25,13 +25,15 @@ Set primary keys, foreign keys to link tables, and composite keys where there wa
 
 ---
 
-### Data Engineering
+## Data Engineering
 
 Created tables with required columns set to the correct data type, Primary Keys set for each table, Foreign keys set to relate tables, NOT NULL condition on necessary columns, and defined value lengths for each column
 
 ![create_tables](https://github.com/caitlin-hartley/sql-challenge/blob/main/images/table_creation.png)
 
-### Data Analysis
+---
+
+## Data Analysis
 
 Analyzed data for following outputs:
  * Employee number, last name, first name, sex, and salary of each employee
@@ -45,7 +47,7 @@ Analyzed data for following outputs:
 
 ![data_analysis](https://github.com/caitlin-hartley/sql-challenge/blob/main/images/data_analysis.png)
 
-Example of query and output for the employees in the sales and development departments:
+### Example of query and output for the employees in the sales and development departments:
 
 QUERY:
 
