@@ -3,14 +3,14 @@
 Research project about people who a company employed during the 1980s and 1990s
 Tasks: 
 
-[Data Modeling](#data-modeling)
+[Data Modeling](data-modeling)
   * Create Entity Relationship Diagram (ERD)
     
-[Data Engineering](#data-engineering)
+[Data Engineering](data-engineering)
   * Design tables to hold the data from the CSV files
   * Import the CSV files into a SQL database
 
-[Data Analysis](#data-analysis)
+[Data Analysis](data-analysis)
   * Perform analysis on the data
 
 ---
