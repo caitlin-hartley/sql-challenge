@@ -6,7 +6,7 @@ Tasks:
 [Data Modeling](https://github.com/caitlin-hartley/sql-challenge/tree/main#data-modeling)
   * Create Entity Relationship Diagram (ERD)
     
-[Data Engineering](https://github.com/caitlin-hartley/sql-challenge/tree/main#data-engineering)
+[Data Engineering](#data-engineering)
   * Design tables to hold the data from the CSV files
   * Import the CSV files into a SQL database
 
