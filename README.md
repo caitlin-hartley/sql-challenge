@@ -3,7 +3,7 @@
 Research project about people who a company employed during the 1980s and 1990s
 Tasks: 
 
-[Data Modeling](https://github.com/caitlin-hartley/sql-challenge/tree/main#data-modeling)
+[Data Modeling](README.md#data-modeling)
   * Create Entity Relationship Diagram (ERD)
     
 [Data Engineering](data-engineering)
