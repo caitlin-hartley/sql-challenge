@@ -19,7 +19,7 @@ Tasks:
 
 Created entity relationship diagram to understand the relationships between different tables
 
-Set primary keys, composite keys where there was not a unique identifier, and foreign keys to link tables
+Set primary keys, foreign keys to link tables, and composite keys where there was not a unique identifier
 
 ![erd](https://github.com/caitlin-hartley/sql-challenge/blob/main/employeeSQL/employees_erd.png)
 
@@ -31,4 +31,26 @@ Created tables with required columns set to the correct data type, Primary Keys 
 
 ![create_tables](https://github.com/caitlin-hartley/sql-challenge/blob/main/images/table_creation.png)
 
-### Data Analysis, respectively.
+### Data Analysis
+
+Analyzed data for following outputs:
+ * Employee number, last name, first name, sex, and salary of each employee
+ * First name, last name, and hire date for the employees who were hired in 1986
+ * Manager of each department along with their department number, department name, employee number, last name, and first name
+ * Department number for each employee along with that employee’s employee number, last name, first name, and department name
+ * First name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B
+ * Each employee in the Sales department, including their employee number, last name, and first name
+ * Each employee in the Sales and Development departments, including their employee number, last name, first name, and department name
+ * Frequency counts, in descending order, of all the employee last names
+
+![data_analysis](https://github.com/caitlin-hartley/sql-challenge/blob/main/images/data_analysis.png)
+
+Example of query and output for the employees in the sales and development departments:
+
+QUERY:
+
+![query](https://github.com/caitlin-hartley/sql-challenge/blob/main/images/employees_sales_development.png)
+
+OUTPUT:
+
+![output](https://github.com/caitlin-hartley/sql-challenge/blob/main/images/sales_development_output.png)
