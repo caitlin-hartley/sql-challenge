@@ -8,7 +8,7 @@
 
 -- Departments
 CREATE TABLE departments (
-    dept_no VARCHAR(4) PRIMARY KEY,
+    dept_no VARCHAR(4) PRIMARY KEY NOT NULL,
     dept_name VARCHAR(18) NOT NULL
 );
 
@@ -20,13 +20,13 @@ CREATE TABLE titles (
 
 -- Employees
 CREATE TABLE employees(
-	emp_no INT PRIMARY KEY,
+	emp_no INT PRIMARY KEY NOT NULL,
 	emp_title_id VARCHAR(5) NOT NULL,
-	birth_date VARCHAR(10) NOT NULL,
+	birth_date DATE NOT NULL,
 	first_name VARCHAR(14) NOT NULL,
 	last_name VARCHAR(16) NOT NULL,
 	sex VARCHAR(1) NOT NULL,
-	hire_date VARCHAR(10) NOT NULL,
+	hire_date DATE NOT NULL,
 	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
@@ -50,7 +50,7 @@ CREATE TABLE dept_manager(
 
 -- Salaries
 CREATE TABLE salaries(
-	emp_no INT PRIMARY KEY,
+	emp_no INT PRIMARY KEY NOT NULL,
 	salary INT NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
@@ -68,7 +68,7 @@ JOIN salaries AS s
 -- First name, last name, hire date for employees hired in 1986
 SELECT first_name, last_name, hire_date
 FROM employees
-WHERE hire_date LIKE '%1986';
+WHERE EXTRACT(YEAR FROM hire_date) = 1986;
 
 -- Manager of each department, department no, department name, employee number, last and first name
 SELECT dm.emp_no, dm.dept_no, d.dept_name, e.last_name, e.first_name
