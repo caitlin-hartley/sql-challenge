@@ -8,19 +8,19 @@
 
 -- Departments
 CREATE TABLE departments (
-    dept_no VARCHAR(4) PRIMARY KEY NOT NULL,
+    dept_no VARCHAR(4) PRIMARY KEY,
     dept_name VARCHAR(18) NOT NULL
 );
 
 -- Titles
 CREATE TABLE titles (
-    title_id VARCHAR(5) PRIMARY KEY NOT NULL,
+    title_id VARCHAR(5) PRIMARY KEY,
 	title VARCHAR(18) NOT NULL
 );
 
 -- Employees
 CREATE TABLE employees(
-	emp_no INT PRIMARY KEY NOT NULL,
+	emp_no INT PRIMARY KEY,
 	emp_title_id VARCHAR(5) NOT NULL,
 	birth_date DATE NOT NULL,
 	first_name VARCHAR(14) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE dept_manager(
 
 -- Salaries
 CREATE TABLE salaries(
-	emp_no INT PRIMARY KEY NOT NULL,
+	emp_no INT PRIMARY KEY,
 	salary INT NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
